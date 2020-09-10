@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+            crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+        <link href="vendor/startbootstrap/creative.css" rel="stylesheet" type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="prod.css">
+        <link rel="stylesheet" href="animate.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <title>Votizen Healthcare</title>
+    </head>
+
+    <body>
+
+        <div id="slideout-menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="blogslist.html">Blog</a>
+                </li>
+                <li>
+                    <a href="blogpost.html">Projects</a>
+                </li>
+                <li>
+                    <a href="Product.html">Products</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+
+        <nav>
+            <div id="logo-img">
+                <a href="#">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="blogslist.html">Blog</a>
+                </li>
+                <li>
+                    <a href="Product.html">Products</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a data-toggle="modal" href="#myModal">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="carousel pics/carousel pics/1.png" alt="First slide">
+                </div>
+                <!-- <div class="carousel-item">
+                    <img class="d-block w-100" src="" alt="Second slide">
+                </div> -->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="carousel pics/carousel pics/2.png" alt="Third slide">
+                </div><div class="carousel-item">
+                    <img class="d-block w-100" src="carousel pics/carousel pics/3.1.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="carousel pics/carousel pics/4.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="carousel pics/carousel pics/5.png" alt="Third slide">
+                </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <section class="row">
+            <div class="menu-item-title col-md-6">
+                <div class="row">
+                  <div class="col-sm-5"><!--We chose sm here because we want both the columns to horizontal to each other for small, medium and large screen sizes.-->
+                      <div class="menu-item-photo">
+                          <img class="img-responsive" width="250" height="250px" src="products/1.jpeg" alt="Item">
+                      </div>
+                  </div>
+                  <div class="menu-item-description col-sm-7">
+                      <h3 class="menu-item-title"> 
+                        (PANIC GO - 0.25) 
+                      </h3>
+                      <p class="menu-item-details">
+                        <p>(100 tab./box)</p>
+                        <p>MRP - 420/Box</p>
+                      </p>
+                      <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+                  </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-title col-md-6">
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="menu-item-photo">
+                        <img class="img-responsive" width="250" height="250px" src="products/2.jpeg" alt="Item">
+                    </div>
+                </div>
+                <div class="menu-item-description col-sm-7">
+                    <h3 class="menu-item-title"> 
+                        (PANICGO 0.5) 
+                    </h3>
+                    <p class="menu-item-details">
+                        <p>(100 tab./box)</p>
+                        <p>MRP - 560/Box</p>
+                    </p>
+                    <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+                </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+
+          <div class="menu-item-title col-md-6">
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="menu-item-photo">
+                        <img class="img-responsive" width="250" height="250px" src="products/3.jpeg" alt="Item">
+                    </div>
+                </div>
+                <div class="menu-item-description col-sm-7">
+                    <h3 class="menu-item-title"> 
+                        Acecfenac + paracetamol + serratiopeptidase 
+                    </h3>
+                    <p class="menu-item-details">
+                        <p>(VOTIZOL SP)</p>
+                        <p>(100 tab./box)</p>
+                        <p>MRP - 990/Box</p>
+                    </p>
+                    <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>    
+                </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+
+          <div class="menu-item-title col-md-6">
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="menu-item-photo">
+                        <img class="img-responsive" width="250" height="250px" src="products/4.jpeg" alt="Item">
+                    </div>
+                </div>
+                <div class="menu-item-description col-sm-7">
+                    <h3 class="menu-item-title"> 
+                        Rabeprazole domperidone dsr
+                    </h3>
+                    <p class="menu-item-details">
+                        <p>(VOTIRAB DSR)</p> 
+                        <p>(100 Cap./box)</p>
+                        <p>MRP - 950/Box</p>
+                    </p>
+                    <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+                </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+
+          <div class="menu-item-title col-md-6">
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="menu-item-photo">
+                        <img class="img-responsive" width="250" height="250px" src="products/5.jpeg" alt="Item">
+                    </div>
+                </div>
+                <div class="menu-item-description col-sm-7">
+                    <h3 class="menu-item-title"> 
+                        Aceclofenac + Paracetamol
+                    </h3>
+                    <p class="menu-item-details">
+                        <p>(VOTIZOL P)</p> 
+                        <p>(100 tab./box)</p>
+                        <p>MRP - 599/Box</p>
+                    </p>
+                    <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+                </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+
+          <div class="menu-item-title col-md-6">
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="menu-item-photo">
+                        <img class="img-responsive" width="250" height="250px" src="products/6.jpeg" alt="Item">
+                    </div>
+                </div>
+                <div class="menu-item-description col-sm-7">
+                    <h3 class="menu-item-title"> 
+                        Lycopene multivitamins multiminerals antioxidants comb.
+                    </h3>
+                    <p class="menu-item-details"> 
+                        <p>(VOTILYC)</p>
+                        <p>(100 Cap./box)</p>
+                        <p>MRP - 1599/Box</p>
+                    </p>
+                    <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+                </div>
+              </div>
+              <hr class="visible-xs">
+          </div>
+
+          <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/7.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Ofloxacin + ornidazole Tab.
+                  </h3>
+                  <p class="menu-item-details"> 
+                    <p>VOTILOX OZ</p>
+                    <p>M.R.P. - 1000/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/8.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Dextromethorphan+ chlorpheniramine+ Phenylpherine Syrup (Pineapple Flavour) (Sugarfree)    
+                </h3>
+                  <p class="menu-item-details"> 
+                      <p>(VENTOZEN DX))</p>
+                      <p>(1 unit)</p>
+                      <p>M.R.P.- 82/unit</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+        
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/9.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Cholecalciferol 60000 IU softgel cap.                     
+                </h3>
+                  <p class="menu-item-details"> 
+                      <p>(RONZE D3)</p>
+                      <p>(40 Cap./box)</p>
+                      <p>M.R.P.- 990/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/10.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Terbutaline+Ambroxol+ Guaphenesin+ Menthol (Sugarfree) (Strawberry flavour)
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(VENTOZEN)</p>
+                      <p>(1 Unit)</p>
+                      <p>MRP - 92/Pcs</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/11.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Montelukast levocetrizine
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(MAKVOT M) </p>
+                      <p>(100 tab./box)</p>
+                      <p>MRP - 1299/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/12.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Ofloxacin 200
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(VOTILOX 200) </p>
+                      <p>(100 tab./box)</p>
+                      <p>MRP - 755/Box </p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/13.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Telmisartan hydrochlorothiazide 
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(SARZEN H)</p>
+                      <p>(100 tab./box)</p>
+                      <p>MRP - 899/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/14.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Betahistine 16 
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(VOTIHIST 16) </p>
+                      <p>(100 tab./box)</p>
+                      <p>MRP - 990/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/15.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Itraconazole 100
+                     
+                    
+                    
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(ITRAVOT)</p>
+                      <p>(4 Cap.) (40 cap./box)</p>
+                      <p>MRP - 900/Box</p>
+                  </p>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/16.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Cefixime + Clavulanic acid
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(VOTICEF CV)</p>
+                      <p>(6 Tab.)(60 tab./box)</p>
+                      <p>MRP - 2055/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/17.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Methylprednisolone 4 mg
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(VOTISONE 4)</p>
+                      <p>(100 tab./box)</p>
+                      <p>MRP - 730/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+        
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/18.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Fexofenadine 120 Mg 
+
+
+
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(FEXZEN 120)  </p>
+                      <p>(100 tab./box)</p>
+                      <p>MRP - 1090/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-sm">
+        </div>
+
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/19.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Glimiperide 2 mg + Metformin 500 mg
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(RYLOGEN MF 2)</p>
+                      <p>(100 tab./box)</p>
+                      <p>M.R.P. - 920/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+
+
+        <div class="menu-item-title col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/20.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Calcium+ Vitamin d3
+                    
+                    
+                    
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(ZENBORY D3) </p>
+                      <p>(100 tab./box)</p>
+                      <p>M.R.P. - 1000/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr>
+        </div>
+
+
+        <div class="menu-item-title col-md-6" id="last">
+            <div class="row">
+              <div class="col-sm-5">
+                  <div class="menu-item-photo">
+                      <img class="img-responsive" width="250" height="250px" src="products/21.jpeg" alt="Item">
+                  </div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                  <h3 class="menu-item-title"> 
+                    Rosuvastatin 10
+                  </h3>
+                  <p class="menu-item-details"> 
+                      <p>(ZENCAVE 10)</p>
+                      <p>(100 tab./box)</p>
+                      <p>M.R.P. - 980/Box</p>
+                  </p>
+                  <button class="btn btn-primary btn-sm" data-target="#myModal" data-toggle="modal">CONTACT</button>
+              </div>
+            </div>
+            <hr class="visible-xs">
+        </div>
+
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+        </section>
+
+
+        <footer>
+            <div id="left-footer">
+                <h3>Quick Links</h3>
+                <p>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                       
+                        <li>
+                            <a href="blogslist.html">Blogs</a>
+                        </li>
+                
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="right-footer">
+                <h3>Follow us on</h3>
+                <div id="social-media-footer">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>This website is developed by Pharma</p>
+            </div>
+            <a data-toggle="modal" href="#myModal"><img src="images/phone black.png" id="fixedbutton"></a>
+        </footer>
+
+
+       <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">ARRANGE A CALL BACK</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p id="doing">Fill in your details.</p>
+                    <form class="make" action="mailto:jagteshvarjotsinghkohli@gmail.com" method="post" enctype="text/plain">
+
+                        <div class="form-group">
+                            <label for="state">State(Choose from the dropdown):</label>
+                            <select name="state" id="state" name="state" class="form-control" required="required">
+                                <option>Select</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chandigarh">Chandigarh</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                <option value="Daman and Diu">Daman and Diu</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Lakshadweep">Lakshadweep</option>
+                                <option value="Puducherry">Puducherry</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Mobile Number*</label>
+                            <input type="text" class="form-control" name="mobile" placeholder="Mobile Number"  required="required" title="Enter 10 digit number" pattern="[1-9]{1}[0-9]{9}">
+                        </div>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input  type="text" class="form-control"  name="name" placeholder="What's your name?">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Email Address">
+                        <div class="form-group">
+                            <label for="msg">Message</label>
+                            <textarea ng-model="body" id="msg" class="inputtext" rows="5" name="body" placeholder="Write your message"></textarea>
+                        </div>
+                        
+
+                        <button type="submit" class="btn btn-primary">Send message</button>
+                        <button type="reset" class="reset" value="Reset">Clear</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <script src="main.js"></script>
+        <script src="scripts.js"></script>
+        <script src="vendor/jquery/jquery-3.2.1.slim.min.js"></script>
+        <script src="vendor/popper/popper.min.js"></script>
+        <script src="vendor/bootstrap/bootstrap.min.js"></script>
+        <script src="js/animate.js"></script>
+        <script src="js/timeline.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#myModal").modal();
+        });
+    </script>
+    </body>
+
+</html>
